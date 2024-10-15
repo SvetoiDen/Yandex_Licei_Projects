@@ -12,6 +12,7 @@ class Window(QWidget):
         self.setGeometry(300,100,300,100)
         self.setWindowTitle('program')
 
+
 if __name__ == '__main__':
     app = QApplication(sys.argv)
     window = Window()
