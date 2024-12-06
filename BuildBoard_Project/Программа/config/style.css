@@ -1,0 +1,43 @@
+QMainWindow {
+    background-color: #211f1f;
+    color: white;
+}
+
+QWidget {
+    background-color: #211f1f;
+    color: white;
+}
+
+.btn_main {
+  align-items: center;
+  background-color: rgba(240, 240, 240, 0.26);
+  border: 1px solid #DFDFDF;
+  border-radius: 16px;
+  box-sizing: border-box;
+  cursor: pointer;
+  display: flex;
+  font-size: 19px;
+  justify-content: center;
+  line-height: 28px;
+  padding: 14px 22px;
+  text-decoration: none;
+  transition: all .2s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.btn_main:active,
+.btn_main:hover {
+  outline: 0;
+}
+
+.btn_main:hover {
+  background-color: #FFFFFF;
+	color: #000;
+  border-color: rgba(0, 0, 0, 0.19);
+}
+
+.btn_widget {
+	background-color: #404040;
+}

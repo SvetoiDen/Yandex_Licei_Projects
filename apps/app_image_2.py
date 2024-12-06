@@ -4,7 +4,7 @@ from PyQt6.QtWidgets import (
     QApplication, QMainWindow, QSlider, QLabel
 )
 from PyQt6.QtGui import QImage, QPixmap, QMouseEvent
-
+#Привет, что за код? О чем этот код?
 
 class AlphaManagement(QMainWindow):
     def __init__(self):
